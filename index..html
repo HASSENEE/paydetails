@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق إدارة المصاريف</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 18px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        iframe {
+            width: 80%;
+            height: 400px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>تطبيق إدارة المصاريف</h1>
+        <nav>
+            <a href="#about">حول التطبيق</a>
+            <a href="#ccp-payment">دفع بالبريد الجاري</a>
+            <a href="#paypal-payment">دفع بالبايبال</a>
+            <a href="#video">فيديو توضيحي</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>حول التطبيق</h2>
+            <p>
+                تطبيق إدارة المصاريف يساعدك على تتبع نفقاتك، تنظيم ميزانيتك، واتخاذ قرارات مالية ذكية.
+                يمكنك استخدام التطبيق لتسجيل المصاريف اليومية، وتحليل الإنفاق، والتخطيط للمستقبل المالي.
+            </p>
+        </section>
+        <section id="ccp-payment">
+            <h2>دفع بالبريد الجاري (بريدي موب)</h2>
+            <a href="ccp-payment.html" class="button">الانتقال إلى الدفع بالبريد الجاري</a>
+        </section>
+        <section id="paypal-payment">
+            <h2>دفع بالبايبال</h2>
+            <a href="paypal-payment.html" class="button">الانتقال إلى الدفع بالبايبال</a>
+        </section>
+        <section id="video">
+            <h2>فيديو توضيحي للتطبيق</h2>
+            <iframe src="https://www.youtube.com/embed/مثال_رابط_الفيديو" title="فيديو شرح التطبيق" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 تطبيق إدارة المصاريف - جميع الحقوق محفوظة.
+    </footer>
+</body>
+</html>
